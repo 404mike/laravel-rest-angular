@@ -20,7 +20,7 @@
     - phpcommon
     - php-pecl
     - nodejs
-    - mongodb
+    #- mongodb
     - composer
     - mysql
     #- pgsql
