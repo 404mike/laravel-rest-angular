@@ -12,7 +12,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/app/styles/main.css">
     <!-- endbuild -->
   </head>
   <body ng-app="laravelApp">
@@ -24,7 +24,8 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
+          <li class="active"><a ng-href="/#/">Home</a></li>
+          <li><a ng-href="#/users">Users</a></li>
           <li><a ng-href="#/about">About</a></li>
           <li><a ng-href="#">Contact</a></li>
         </ul>
@@ -73,11 +74,11 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/users.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="/app/scripts/app.js"></script>
+    <script src="/app/scripts/controllers/main.js"></script>
+    <script src="/app/scripts/controllers/about.js"></script>
+    <script src="/app/scripts/controllers/users.js"></script>
+    <!-- endbuild -->
 </body>
 </html>

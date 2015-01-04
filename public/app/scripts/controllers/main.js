@@ -15,3 +15,4 @@ angular.module('laravelApp')
       'Karma'
     ];
   });
+

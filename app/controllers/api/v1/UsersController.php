@@ -16,6 +16,27 @@ class UsersController extends \BaseController {
 	        $response['title'] = 'Users Controller';
 
 	        $response['message'] = 'Hello from the Users Controller';
+
+	        $response['users'] = [
+	        	'1' => [
+	        		'name' => 'Mike',
+	        		'age' => 29,
+	        		'id' => 1,
+	        		'bio' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+	        	],
+	        	'2' => [
+	        		'name' => 'John',
+	        		'age' => 20,
+	        		'id' => 2,
+	        		'bio' => 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+	        	],
+	        	'3' => [
+	        		'name' => 'Dave',
+	        		'age' => 25,
+	        		'id' => 3,
+	        		'bio' => 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+	        	]
+	        ];
 	 
 	    }catch (Exception $e){
 	        $statusCode = 400;

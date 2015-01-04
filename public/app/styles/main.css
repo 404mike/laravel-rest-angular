@@ -77,3 +77,9 @@ body {
     border-bottom: 0;
   }
 }
+
+.users {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
