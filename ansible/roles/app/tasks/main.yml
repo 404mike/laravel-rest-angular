@@ -5,3 +5,6 @@
 
 - name: App | Composer install
   command: composer install chdir=/vagrant
+
+- name: App | install yo angular
+  command: yo angular laravel chdir=/vagrant/public
